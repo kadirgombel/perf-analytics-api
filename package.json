@@ -6,7 +6,7 @@
   "scripts": {
     "test": "",
     "dev": "cross-env NODE_ENV=development nodemon -i \"*.test.js\" .",
-    "prod": "pm2 start ecosystem.config.js --env production"
+    "prod": "pm2-runtime start ecosystem.config.js --env production"
   },
   "author": "",
   "license": "ISC",
